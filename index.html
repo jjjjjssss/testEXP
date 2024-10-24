@@ -15,6 +15,11 @@
             height: 100%;
         }
 
+        .image-container {
+            position: relative;
+            width: 100%;
+        }
+
         .full-width-image {
             width: 100%;
             height: auto;
@@ -22,10 +27,10 @@
 
         .invisible-touch-box {
             position: absolute;
-            left: 350px;
-            top: 2010px;
-            width: 104px;
-            height: 55px;
+            left: 23.75%;
+            top: 23.3%;
+            width: 7%;
+            height: 0.65%;
             background-color: transparent;
             cursor: pointer;
             z-index: 1000;
@@ -35,8 +40,10 @@
 </head>
 <body>
 
-    <img src="pdp.svg" alt="Full Width Image" class="full-width-image">
-    <div class="invisible-touch-box" onclick="window.location.href='cko.html';"></div>
+    <div class="image-container">
+        <img src="pdp.svg" alt="PDP Full Width Image" class="full-width-image">
+        <div class="invisible-touch-box" onclick="window.location.href='cko.html';"></div>
+    </div>
 
 </body>
 </html>
